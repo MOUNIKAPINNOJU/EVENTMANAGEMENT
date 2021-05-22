@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="event.css">
+    </head>
+    <body>
+        <h2>EVENT REGISTER PAGE</h2>
+        <h3>Please fill the below form to register for Event</h3>
+        <div class="event">
+            
+            <form id="event" method="POST" action="event.php">
+                <label><b>FirstName
+                </b>
+                </label>
+                <input type="text" name="fname" id="fname" placeholder="FirstName" required>
+                <br><br>
+                <label><b>LastName
+                </b>
+                </label>
+                <input type="text" name="lname" id="lname" placeholder="LastName" required>
+                <br><br>
+                
+                <label><b>Email
+                </b>
+                </label>
+                <input type="text" name="email" id="email" placeholder="Email" required>
+                <br><br>
+                <label><b>PhoneNumber
+                </b>
+                </label>
+                <input type="tel" name="phone" id="phone" placeholder="0123456789" required>
+                <br><br>
+
+                <label><b>Select Event
+                </b>
+                </label>
+                <select id="eventname" name="eventname">
+                    <option value="eventname">select Event</option>
+                    <option value="Wedding">Wedding</option>
+                    <option value="Brthday">Birthday</option>
+                    <option value="Meeting">Meeting</option>
+                </select>
+                <br><br>
+
+                <label><b>How many guests?
+                </b>
+                </label>
+                <select id="guests" name="guests">
+                    <option value="guests">select no of guests</option>
+                    <option value="20">nearly 20</option>
+                    <option value="50">nearly 50</option>
+                    <option value="100">nearly 100</option>
+                    <option value="250">nearly 250</option>
+                    <option value="500">nearly 500</option>
+                    <option value="1000">nearly 1000</option>
+                </select>
+                <br><br>
+                <label><b>Select Location
+                </b>
+                </label>
+                <select id="location" name="location">
+                    <option value="location">Select location</option>
+                    <option value="Gayathri">Gayathri Gardens</option>
+                    <option value="NSR">NSR Gardens</option>
+                    <option value="100">nearly 100</option>
+                    <option value="250">nearly 250</option>
+                    <option value="500">nearly 500</option>
+                    <option value="1000">nearly 1000</option>
+                </select>
+                <br><br>
+                <label><b>Start Date
+                </b>
+                </label>
+                <input type="date" id="start" name="start" required>
+                <br><br>
+                <label><b>End date
+                </b>
+                </label>
+                <input type="date" id="end" name="end" required>
+                <br><br>
+                <input type="submit" value="Create Event">
+                <br><br>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: beige;
+  font-family: "Arial";
+}
+.register {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background-color: rgba(197, 214, 197, 0.781);
+  border-radius: 15px;
+}
+h2 {
+  text-align: center;
+  color: #822733;
+  padding: 20px;
+}
+#username {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+#email {
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Pass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#phone {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#stat {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#dist {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#city {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}

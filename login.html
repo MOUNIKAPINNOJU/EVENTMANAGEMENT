@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+    <script language="javascript" type="text/javascript"> //this is used to prevent go back to login page after login.
+        window.history.forward();
+        </script>
+    
+</head>
+<body>
+    <h2>Login Page</h2><br>
+    <div class="login">
+        <form id="login" method="POST" action="login.php">
+            <label><b>Username
+            </b>
+            </label>
+            <input type="text" name="username" id="Uname" placeholder="Username">
+            <br><br>
+            <label><b> Password
+            </b>
+            </label>
+            <input type="Password" name="Pass" id="Pass" placeholder="Password">
+            <br><br>
+            <label><b>Select user type:
+            </b>
+            </label>
+            <select id="usertype" name="usertype">
+                <option value=""></option>
+                <option value="admin">admin</option>
+                <option value="user">user</option>
+            </select>
+            <br><br>
+            <button type="submit">Login</button>
+
+            <br><br>
+        </form>
+    </div>
+</body>

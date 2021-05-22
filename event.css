@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://res.cloudinary.com/ddm6ghtlc/image/upload/v1621212938/back_lsa2uu.jpg");
+
+  font-family: "Arial";
+}
+.event {
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background-color: rgb(144, 139, 201);
+
+  border-radius: 15px;
+}
+h2 {
+  text-align: center;
+  color: #ece4e5;
+  padding: 20px;
+}
+h3 {
+  text-align: center;
+  color: #ddd3d4;
+  padding: 20px;
+}
+#fname {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#lname {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#email {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#phone {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#eventname {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#guests {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#location {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#start {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#end {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
